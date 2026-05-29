@@ -37,17 +37,17 @@ const fadeIn = {
 
 /* ─── Data ─── */
 const STATS = [
-  { num: "2,000+",  label: "Students Enrolled",     icon: Users,       accent: "#3ddb7a" },
+  { num: "2,000+",  label: "Students Enrolled",     icon: Users,       accent: "#e8a020" },
   { num: "96%",     label: "Completion Rate",        icon: TrendingUp,  accent: "#f5c518" },
-  { num: "12+",     label: "Expert Instructors",     icon: Award,       accent: "#5b8fff" },
+  { num: "12+",     label: "Expert Instructors",     icon: Award,       accent: "#00d4c8" },
   { num: "4.9 ★",  label: "Average Rating",         icon: Star,        accent: "#bf7aff" },
 ];
 
 const AUDIENCE = [
   {
     icon: GraduationCap,
-    color: "#3ddb7a",
-    bg: "rgba(61,219,122,0.1)",
+    color: "#e8a020",
+    bg: "rgba(232,160,32,0.1)",
     title: "Students & Graduates",
     desc: "Build skills that go far beyond the syllabus and stand out in competitive job markets.",
   },
@@ -60,8 +60,8 @@ const AUDIENCE = [
   },
   {
     icon: Lightbulb,
-    color: "#5b8fff",
-    bg: "rgba(91,143,255,0.1)",
+    color: "#00d4c8",
+    bg: "rgba(0,212,200,0.1)",
     title: "Entrepreneurs & Founders",
     desc: "Learn to make smarter decisions using data insights and analytical thinking.",
   },
@@ -81,7 +81,7 @@ const MODULES = [
     title: "Foundations of Critical Thinking",
     desc: "Master the art of structured reasoning, logical analysis, and evidence-based decision making.",
     topics: ["Logic & Fallacies", "Mental Models", "Bayesian Thinking"],
-    accent: "#3ddb7a",
+    accent: "#e8a020",
   },
   {
     week: "Module 02",
@@ -95,7 +95,7 @@ const MODULES = [
     title: "Global Trends & Local Impact",
     desc: "Connect macro-level global trends to micro-level decisions affecting your daily life and career.",
     topics: ["Economics", "Technology Trends", "Policy Analysis"],
-    accent: "#5b8fff",
+    accent: "#00d4c8",
   },
   {
     week: "Module 04",
@@ -109,7 +109,7 @@ const MODULES = [
     title: "Communication & Storytelling",
     desc: "Turn complex insights into compelling narratives that influence and inspire action.",
     topics: ["Data Storytelling", "Presentation Skills", "Executive Communication"],
-    accent: "#3ddb7a",
+    accent: "#e8a020",
   },
   {
     week: "Module 06",
@@ -127,7 +127,7 @@ const TESTIMONIALS = [
     name: "Arjun Mehta",
     role: "Data Analyst @ Infosys",
     initial: "A",
-    bg: "#3ddb7a",
+    bg: "#e8a020",
     featured: true,
   },
   {
@@ -144,7 +144,7 @@ const TESTIMONIALS = [
     name: "Rahul Gupta",
     role: "Founder, EdTech Startup",
     initial: "R",
-    bg: "#5b8fff",
+    bg: "#00d4c8",
   },
 ];
 
@@ -172,20 +172,20 @@ const FAQS = [
 ];
 
 const MARQUEE_ITEMS = [
-  { label: "Critical Thinking", color: "#3ddb7a" },
-  { label: "Data Literacy", color: "#f5c518" },
-  { label: "Global Perspective", color: "#5b8fff" },
-  { label: "Problem Solving", color: "#bf7aff" },
-  { label: "Communication Skills", color: "#3ddb7a" },
-  { label: "Industry Mentors", color: "#f5c518" },
-  { label: "Capstone Projects", color: "#5b8fff" },
+  { label: "Critical Thinking",       color: "#e8a020" },
+  { label: "Data Literacy",           color: "#f5c518" },
+  { label: "Global Perspective",      color: "#00d4c8" },
+  { label: "Problem Solving",         color: "#bf7aff" },
+  { label: "Communication Skills",    color: "#e8a020" },
+  { label: "Industry Mentors",        color: "#f5c518" },
+  { label: "Capstone Projects",       color: "#00d4c8" },
   { label: "Certificate of Excellence", color: "#bf7aff" },
 ];
 
 const HERO_MODULES = [
-  { icon: Brain,   color: "#3ddb7a", bg: "rgba(61,219,122,0.12)", name: "Critical Thinking",    sub: "6 core modules",      badge: "Popular", badgeBg: "rgba(61,219,122,0.2)", badgeColor: "#3ddb7a" },
-  { icon: BarChart2, color: "#f5c518", bg: "rgba(245,197,24,0.12)", name: "Data Literacy",     sub: "Real datasets",       badge: "New",     badgeBg: "rgba(245,197,24,0.2)", badgeColor: "#f5c518" },
-  { icon: Globe,   color: "#5b8fff", bg: "rgba(91,143,255,0.12)", name: "Global Trends",      sub: "50+ case studies",    badge: "🌍",      badgeBg: "rgba(91,143,255,0.15)", badgeColor: "#5b8fff" },
+  { icon: Brain,     color: "#e8a020", bg: "rgba(232,160,32,0.12)",  name: "Critical Thinking", sub: "6 core modules",   badge: "Popular", badgeBg: "rgba(232,160,32,0.2)",  badgeColor: "#e8a020" },
+  { icon: BarChart2, color: "#f5c518", bg: "rgba(245,197,24,0.12)",  name: "Data Literacy",     sub: "Real datasets",    badge: "New",     badgeBg: "rgba(245,197,24,0.2)",  badgeColor: "#f5c518" },
+  { icon: Globe,     color: "#00d4c8", bg: "rgba(0,212,200,0.12)",   name: "Global Trends",     sub: "50+ case studies", badge: "🌍",      badgeBg: "rgba(0,212,200,0.15)",  badgeColor: "#00d4c8" },
 ];
 
 /* ─── Sub-components ─── */

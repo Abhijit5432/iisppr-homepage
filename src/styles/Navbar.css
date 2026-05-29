@@ -6,7 +6,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(4, 19, 13, 0.85);
+  background: rgba(8, 8, 8, 0.92);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--color-border);
@@ -50,7 +50,7 @@
 .nav-logo__tagline {
   font-size: 8px;
   letter-spacing: 3px;
-  color: #7fad8e;
+  color: #888888;
   text-transform: uppercase;
 }
 
@@ -79,8 +79,9 @@
 
 /* ── CTA button ── */
 .nav-cta {
-  background: var(--color-green);
-  color: #03110a;
+  background: var(--color-yellow);
+  color: #1a0f00;
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.3);
   font-size: 12px;
   font-weight: 700;
   padding: 10px 22px;
@@ -89,8 +90,9 @@
 }
 
 .nav-cta:hover {
-  background: #5eff9c;
+  background: #ffd84a;
   transform: translateY(-1px);
+  box-shadow: 0 0 32px rgba(245, 197, 24, 0.55);
 }
 
 /* ── Responsive ── */

@@ -2,26 +2,31 @@
    variables.css — Design tokens & CSS custom properties
 ───────────────────────────────────────────────────────── */
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  /* ── Colors ── */
-  --color-bg:           #04130d;
-  --color-bg-2:         #071a10;
+  /* ── Colors (matched to course-page-lake.vercel.app) ── */
+  --color-bg:           #080808;
+  --color-bg-2:         #0d0b06;
   --color-card-bg:      rgba(255, 255, 255, 0.04);
   --color-border:       rgba(255, 255, 255, 0.08);
-  --color-green:        #3ddb7a;
+
+  /* Primary accent: amber/gold-orange */
+  --color-green:        #e8a020;
+  /* Secondary accent: teal/cyan */
+  --color-teal:         #00d4c8;
+  /* Kept yellow for CTA buttons */
   --color-yellow:       #f5c518;
   --color-blue:         #5b8fff;
   --color-purple:       #bf7aff;
+
   --color-text-primary: #ffffff;
-  --color-text-muted:   #99b5a3;
-  --color-text-dim:     #7fa08a;
+  --color-text-muted:   #b0b0b0;
+  --color-text-dim:     #8a8a8a;
 
-/* styles/variables.css */
-
---font-display: 'Outfit', sans-serif;   /* ← change this */
---font-body:    'Outfit', sans-serif;   /* ← and this */
+  /* ── Fonts ── */
+  --font-display: 'Outfit', sans-serif;
+  --font-body:    'Outfit', sans-serif;
 
   /* ── Spacing ── */
   --space-xs:  4px;
